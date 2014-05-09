@@ -3,11 +3,14 @@
    <modelVersion>4.0.0</modelVersion>
 
    <groupId>com.github.batkinson</groupId>
-   <artifactId>minimal-selenium</artifactId>
+   <artifactId>minimal-selenium-servlet3</artifactId>
    <version>1.0-SNAPSHOT</version>
    <packaging>war</packaging>
 
-   <name>minimal-selenium</name>
+   <name>minimal-selenium-servlet3</name>
+   <description>
+      A minimal working example of a maven servlet3 app with selenium webdriver.
+   </description>
 
    <dependencies>
       <dependency>
