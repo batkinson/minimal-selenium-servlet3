@@ -45,6 +45,9 @@
                <scanIntervalSeconds>10</scanIntervalSeconds>
                <stopKey>STOP</stopKey>
                <stopPort>8999</stopPort>
+               <httpConnector>
+                  <port>${servlet.port}</port>
+               </httpConnector>
             </configuration>
             <executions>
                <execution>
@@ -71,6 +74,7 @@
 
    <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <servlet.port>8080</servlet.port>
    </properties>
 
 </project>
