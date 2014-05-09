@@ -26,6 +26,7 @@
          <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
+            <version>2.2</version>
             <configuration>
                <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
@@ -41,6 +42,7 @@
          <plugin>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-maven-plugin</artifactId>
+            <version>9.2.0.M1</version>
             <configuration>
                <scanIntervalSeconds>10</scanIntervalSeconds>
                <stopKey>STOP</stopKey>
