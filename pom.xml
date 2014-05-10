@@ -97,6 +97,7 @@
             <configuration>
                <systemPropertyVariables>
                   <appUrl>http://localhost:${servlet.port}</appUrl>
+                  <screenshotDir>${project.build.directory}/screenshots</screenshotDir>
                </systemPropertyVariables>
             </configuration>
          </plugin>
