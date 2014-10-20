@@ -13,7 +13,7 @@ a testable servlet3 application can be configured in Maven.
 
 To build this project, you'll need:
 
-  * [Apache Maven](http://maven.apache.org/) or a compatibile tool.
+  * [Apache Maven](http://maven.apache.org/)
 
 ## Building
 
